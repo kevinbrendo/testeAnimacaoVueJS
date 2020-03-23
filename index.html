@@ -28,11 +28,11 @@
         <polygon :points="points"></polygon>
         <circle cx="100" cy="100" r="90"></circle>
       </svg>
-      <label>Sides: {{ sides }}</label>
+      <label>Lados: {{ sides }}</label>
       <input type="range" min="3" max="500" v-model.number="sides" />
-      <label>Minimum Radius: {{ minRadius }}%</label>
+      <label>Raio minimo: {{ minRadius }}%</label>
       <input type="range" min="0" max="90" v-model.number="minRadius" />
-      <label>Update Interval: {{ updateInterval }} milliseconds</label>
+      <label>Intervalo de atualização: {{ updateInterval }} milisecundos</label>
       <input type="range" min="10" max="2000" v-model.number="updateInterval" />
     </div>
 
